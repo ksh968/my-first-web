@@ -1,0 +1,52 @@
+@media (max-width:800px) {
+  .grid {
+    display: block;
+  }
+
+  h1 {
+    border-bottom: none;
+  }
+
+  ol {
+    border-right: none;
+  }
+}
+
+body {
+  margin: 0;
+  background-image: url("bike.png");
+}
+
+#active {
+  color: red;
+}
+
+.saw {
+  color: gray;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 20px;
+}
+
+ol {
+  border-right: 2px solid gray;
+  width: 50px;
+  margin: 0;
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  border: 1px solid gray;
+}
